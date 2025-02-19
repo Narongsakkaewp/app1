@@ -1,0 +1,18 @@
+.nav{
+    background-color: lightgoldenrodyellow;
+    padding: 7px;
+    text-align: center;
+}
+
+.menu{
+    color: black;
+    text-decoration: none;
+    padding: 2px 5px;
+}
+
+.active_menu{
+    color: purple;
+    background-color: lightgray;
+    text-decoration: none;
+    padding: 2px 5px;
+}
