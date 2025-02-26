@@ -34,7 +34,7 @@ return (
             <label htmlFor="maxNumFiles" className="form-label">จำนวนไฟล์สูงสุด</label>
             <select id = "maxNumFiles" className="form-select form-select-sm" ref={selectMaxNumFiles}>
                 {
-                    maxSize.map(i => {
+                    maxNumFiles.map(i => {
                         return <option value={i}>{i}</option>
                     })
                 }
