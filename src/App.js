@@ -1,8 +1,7 @@
 import React from 'react'
-import Router3 from './router3'
+import FormSearch from './form-search'
+import FormText from './form-text'
 
-function App(){
-  return <Router3></Router3>
+export default function App(){
+  return <FormText/>
 }
-
-export default App;
