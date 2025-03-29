@@ -1,8 +1,11 @@
-import React from 'react'
-import FormSearch from './form-search'
-import FromSelectFile from './form-select-file'
-import FormText from './form-text'
+import Karaoke from "./karaoke";
 
-export default function App(){
-  return <FromSelectFile/>
+function App() {
+  return (
+    <div>
+      <Karaoke />
+    </div>
+  );
 }
+
+export default App;
